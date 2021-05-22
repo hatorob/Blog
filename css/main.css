@@ -1,0 +1,145 @@
+/***** Estilos globales ****/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+h1 {
+    font-family: 'Lobster', cursive;
+}
+p, a {
+    font-family: 'Roboto', sans-serif;
+}
+
+/***** Estilos Header ****/
+
+.header {
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.header .header-icons-container {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: black;
+    
+}
+.header .header-icons-container .icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+}
+
+.header .icons span {
+    color: yellow;
+}
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+    background-color: rgb(255, 255, .2);
+
+}
+.nav .nav-logo-container {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.nav .nav-logo-container img {
+    width: 70px;
+    margin-top: 10px;
+}
+.nav .nav-logo-container p{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: black;
+    font-weight: 900;
+    font-size: 1.6rem;
+}
+.nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+    font-weight: 900;
+    
+}
+.nav .profile-link a {
+    border-bottom: 1px solid black;
+    font-size: 1.6rem;
+}
+
+/******* Main *****/
+main {
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/img/pexels-negative-space-169573.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.description-contenedor {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+}
+.contenido {
+    background-color: rgba(5, 5, 5, 0.7);
+    height: 100%;
+}
+.description-contenedor .texto {
+    margin-top: 70px;
+    color: yellow;
+    font-weight: bold;
+    text-align: center;
+    font-size: 8rem;
+}
+.description-link {
+    width: 100px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255,.1);
+    font-weight: bold;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    margin-top: 80px;
+}
+.description-link a {
+    color: yellow;
+    margin-left: 6px;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.txt-color {
+    color: white;
+    margin-left: 6px;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+
+
